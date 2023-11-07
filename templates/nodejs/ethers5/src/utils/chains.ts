@@ -46,7 +46,7 @@ export const zkSyncTestnet: Chain = {
 export const zkSyncDockerizedNode: Chain = {
   id: 270,
   name: "Dockerized local node",
-  rpcUrl: 'http://localhost:3050',
+  rpcUrl: "http://localhost:3050",
 
   // You can start block explorer locally with `npx zksync-cli dev start`
   blockExplorerUrl: "http://localhost:3010",
@@ -57,7 +57,7 @@ export const zkSyncDockerizedNode: Chain = {
 export const zkSyncInMemoryNode: Chain = {
   id: 260,
   name: "In-memory local node",
-  rpcUrl: 'http://127.0.0.1:8011',
+  rpcUrl: "http://127.0.0.1:8011",
 }
 
 export const chains: Chain[] = [
