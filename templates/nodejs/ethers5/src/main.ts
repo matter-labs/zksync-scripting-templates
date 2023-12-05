@@ -6,7 +6,7 @@
 
 // === CONFIG ===
 
-// By default zkSync Testnet will be used (e.g. when calling getWallet() or getProvider())
+// By default zkSync Sepolia Testnet will be used (e.g. when calling getWallet() or getProvider())
 // Customize default network in utils/chains.ts `defaultChain`
 
 

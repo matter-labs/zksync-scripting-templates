@@ -12,7 +12,7 @@ This is a [zkSync](https://zksync.io) + [ethers v5](https://docs.ethers.org/v5/)
 
 # Configuration
 
-By default your code will be run against zkSync Era Testnet. If you wish to use a different network, you can change the `defaultChain` in `src/utils/chains.ts` file.
+By default your code will be run against zkSync Sepolia Testnet. If you wish to use a different network, you can change the `defaultChain` in `src/utils/chains.ts` file.
 
 Alternatively, you can use `getProvider` or `getWallet` with a custom `chain` parameter.
 
