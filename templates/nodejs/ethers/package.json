@@ -6,8 +6,8 @@
     "start": "ts-node src/main.ts"
   },
   "dependencies": {
-    "ethers": "^5.7.2",
-    "zksync-ethers": "^5.0.0"
+    "ethers": "^6.9.2",
+    "zksync-ethers": "^6.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.8.10",

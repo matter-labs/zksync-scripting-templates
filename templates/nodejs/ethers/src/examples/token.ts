@@ -65,7 +65,7 @@ const transferETH = async () => {
   const l2Transaction = await wallet.transfer({
     to: ANOTHER_WALLET_ADDRESS,
     token: ETH_TOKEN.l1Address, // For ETH, use L1 address 0x000...000
-    amount: parseAmount("0.0001", ETH_TOKEN.decimals),
+    amount: parseAmount("0.0001", ETH_TOKEN.decimals).toString(),
   });
   await l2Transaction.wait();
 }
@@ -75,7 +75,7 @@ const transferERC20 = async () => {
   const l2Transaction = await wallet.transfer({
     to: ANOTHER_WALLET_ADDRESS,
     token: EXAMPLE_ERC20_TOKEN.address, // Make sure to use L2 address
-    amount: parseAmount("10", EXAMPLE_ERC20_TOKEN.decimals),
+    amount: parseAmount("10", EXAMPLE_ERC20_TOKEN.decimals).toString(),
   });
   await l2Transaction.wait();
 }

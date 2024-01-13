@@ -12,6 +12,7 @@ Currently, the repository includes templates for Node.js, with plans to expand t
 ### Node.js
 
 - [Viem Template](./templates/nodejs/viem/)
+- [Ethers v6 Template](./templates/nodejs/ethers/)
 - [Ethers v5 Template](./templates/nodejs/ethers5/)
 
 
