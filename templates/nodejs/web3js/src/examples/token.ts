@@ -7,7 +7,7 @@ import {ethereumMainnet} from "../utils/chains";
 
 
 const web3 = new Web3(ethereumMainnet.rpcUrl);
-web3.registerPlugin(ZkSyncPlugin)
+web3.registerPlugin(new ZkSyncPlugin())
 
 
 const EXAMPLE_ERC20_TOKEN = {
@@ -27,6 +27,8 @@ const getETHBalanceByAddress = async () => {
 
     const formattedBalance = web3.utils.fromWei(balance, 'wei'); // e.g. "1550.248"
 }
+
+getETHBalanceByAddress().then(console.log);
 
 // Get ERC20 balance of any address
 const getERC20BalanceByAddress = async () => {

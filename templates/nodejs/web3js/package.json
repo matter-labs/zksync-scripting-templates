@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "web3": "^4.4.0",
-    "web3-plugin-zksync": "^0.1.0"
+    "web3-plugin-zksync": "^0.1.1"
   },
   "devDependencies": {
     "@types/node": "^20.11.5",
