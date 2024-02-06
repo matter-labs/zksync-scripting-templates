@@ -6,7 +6,8 @@
     "start": "ts-node src/main.ts"
   },
   "dependencies": {
-    "web3": "^4.4.0"
+    "web3": "^4.4.0",
+    "web3-plugin-zksync": "^0.1.0"
   },
   "devDependencies": {
     "@types/node": "^20.11.5",

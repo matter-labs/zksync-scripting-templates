@@ -1,4 +1,4 @@
-import {ZkSyncPlugin} from "web3-zksync-plugin";
+import {ZkSyncPlugin} from "web3-plugin-zksync";
 import {Web3, Web3BaseProvider, Web3Context} from "web3";
 
 import {type Chain, type L1Chain, defaultChain} from "./chains";

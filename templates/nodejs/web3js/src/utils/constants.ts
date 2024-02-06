@@ -1,4 +1,4 @@
-import {ETH_ADDRESS,L2_ETH_TOKEN_ADDRESS} from "web3-zksync-plugin";
+import {ETH_ADDRESS,L2_ETH_TOKEN_ADDRESS} from "web3-plugin-zksync";
 
 export const ETH_TOKEN = {
   name: "Ether",
