@@ -1,4 +1,4 @@
-This is a [zkSync](https://zksync.io) + [ethers v6](https://docs.ethers.org/v6/) + [Node.js](https://nodejs.org/) project in TypeScript bootstrapped with [`zksync-cli`](https://github.com/matter-labs/zksync-cli)
+This is a [zkSync](https://zksync.io) + [web3js v4](https://docs.web3js.org/) + [Node.js](https://nodejs.org/) project in TypeScript bootstrapped with [`zksync-cli`](https://github.com/matter-labs/zksync-cli)
 
 # Prerequisites
 
