@@ -18,7 +18,7 @@ Alternatively, you can use `getProvider` or `getWallet` with a custom `chain` pa
 
 # Learn more
 
-To learn more about [zkSync](https://zksync.io) or [ethers v6](https://docs.ethers.org/v6/), check out the following resources:
+To learn more about [zkSync](https://zksync.io) or [web3js v4](https://docs.web3js.org/), check out the following resources:
 
 - [zkSync Documentation](https://era.zksync.io/docs/dev)
-- [ethers v6 Documentation](https://docs.ethers.org/v6/)
+- [web3js v4 Documentation](https://docs.web3js.org/)
