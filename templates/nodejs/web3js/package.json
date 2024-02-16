@@ -1,0 +1,17 @@
+{
+  "name": "my-app",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "ts-node src/main.ts"
+  },
+  "dependencies": {
+    "web3": "^4.4.0",
+    "web3-plugin-zksync": "^0.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
