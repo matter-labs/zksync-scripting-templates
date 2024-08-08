@@ -6,12 +6,12 @@
     "start": "ts-node src/main.ts"
   },
   "dependencies": {
-    "web3": "^4.4.0",
-    "web3-plugin-zksync": "^0.1.4"
+    "web3": "^4.11.1",
+    "web3-plugin-zksync": "^0.1.5"
   },
   "devDependencies": {
-    "@types/node": "^20.11.5",
+    "@types/node": "^22.1.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.5.4"
   }
 }
