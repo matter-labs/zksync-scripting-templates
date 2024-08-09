@@ -3,7 +3,7 @@
 Welcome to the `ZKsync Scripting Examples` repository. This collection is tailored for developers looking to create scripts for ZKsync interactions and features templates for quick scaffolding that can be run in the console. For now, the repository hosts a growing list of templates for Node.js.
 
 #### Deploying and verifying contracts
-If you are looking for scripts to deploy or verify contracts, please check out [ZKsync Hardhat Template](https://github.com/matter-labs/zksync-hardhat-template)
+If you are looking for scripts to deploy or verify contracts, please check out [ZKsync Contract Templates](https://github.com/matter-labs/zksync-contract-templates)
 
 ## 📁 Available Templates
 
