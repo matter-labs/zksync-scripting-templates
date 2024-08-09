@@ -1,10 +1,11 @@
 import { ethers } from "ethers";
-import { ETH_ADDRESS, L2_ETH_TOKEN_ADDRESS } from "zksync-ethers/build/src/utils";
+import { ETH_ADDRESS, L2_BASE_TOKEN_ADDRESS } from "zksync-ethers/build/utils";
+
 
 export const ETH_TOKEN = {
   name: "Ether",
   symbol: "ETH",
-  address: ethers.getAddress(L2_ETH_TOKEN_ADDRESS),
+  address: ethers.getAddress(L2_BASE_TOKEN_ADDRESS),
   l1Address: ETH_ADDRESS,
   decimals: 18,
 }

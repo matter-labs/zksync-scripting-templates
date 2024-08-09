@@ -1,7 +1,6 @@
 import {
+  zksync,
   type Chain,
-  zkSync,
-  zkSyncTestnet as zkSyncGoerliTestnet // deprecated network
 } from "viem/chains";
 
 export const zkSyncSepoliaTestnet = {
@@ -63,9 +62,8 @@ export const zkSyncInMemoryNode = {
 }
 
 export const chains: Chain[] = [
-  zkSync,
+  zksync,
   zkSyncSepoliaTestnet,
-  zkSyncGoerliTestnet,
   zkSyncDockerizedNode,
   zkSyncInMemoryNode,
 ]

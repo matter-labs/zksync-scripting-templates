@@ -21,12 +21,6 @@ export const ethereumSepolia: L1Chain = {
   rpcUrl: "https://rpc.ankr.com/eth_sepolia",
   blockExplorerUrl: "https://sepolia.etherscan.io",
 }
-export const ethereumGoerli: L1Chain = {
-  id: 5,
-  name: "Ethereum Goerli Testnet",
-  rpcUrl: "https://rpc.ankr.com/eth_goerli",
-  blockExplorerUrl: "https://goerli.etherscan.io",
-}
 export const ethereumDockerizedNode: L1Chain = {
   id: 9,
   name: "Ethereum Local Node",
@@ -47,13 +41,6 @@ export const zkSyncSepoliaTestnet: Chain = {
   rpcUrl: "https://sepolia.era.zksync.dev",
   blockExplorerUrl: "https://sepolia.explorer.zksync.io",
   blockExplorerApi: "https://block-explorer-api.sepolia.zksync.dev", // Docs: https://block-explorer-api.sepolia.zksync.dev/docs
-}
-export const zkSyncGoerliTestnet: Chain = { // deprecated network
-  id: 280,
-  name: "zkSync Goerli Testnet",
-  rpcUrl: "https://testnet.era.zksync.dev",
-  blockExplorerUrl: "https://goerli.explorer.zksync.io",
-  blockExplorerApi: "https://block-explorer-api.testnets.zksync.dev", // Docs: https://block-explorer-api.testnets.zksync.dev/docs
 }
 
 export const zkSyncDockerizedNode: Chain = {
@@ -76,7 +63,6 @@ export const zkSyncInMemoryNode: Chain = {
 export const chains: Chain[] = [
   zkSyncMainnet,
   zkSyncSepoliaTestnet,
-  zkSyncGoerliTestnet,
   zkSyncDockerizedNode,
   zkSyncInMemoryNode
 ]
