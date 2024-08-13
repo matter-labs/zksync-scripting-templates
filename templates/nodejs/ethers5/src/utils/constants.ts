@@ -12,7 +12,7 @@ export const ETH_TOKEN = {
 
 /**
  * Rich wallets can be used for testing purposes.
- * Available on zkSync In-memory node and Dockerized node.
+ * Available on ZKsync In-memory node and Dockerized node.
  */
 export const LOCAL_RICH_WALLETS = [
   {

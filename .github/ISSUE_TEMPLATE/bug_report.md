@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-### 🐛 Bug Report for zkSync Scripting Templates
+### 🐛 Bug Report for ZKsync Scripting Templates
 #### 📝 Description
 
 Provide a clear and concise description of the bug.

@@ -1,4 +1,4 @@
-This is a [zkSync](https://zksync.io) + [web3js v4](https://docs.web3js.org/) + [Node.js](https://nodejs.org/) project in TypeScript bootstrapped with [`zksync-cli`](https://github.com/matter-labs/zksync-cli)
+This is a [ZKsync](https://zksync.io) + [web3js v4](https://docs.web3js.org/) + [Node.js](https://nodejs.org/) project in TypeScript bootstrapped with [`zksync-cli`](https://github.com/matter-labs/zksync-cli)
 
 # Prerequisites
 
@@ -12,13 +12,13 @@ This is a [zkSync](https://zksync.io) + [web3js v4](https://docs.web3js.org/) + 
 
 # Configuration
 
-By default your code will be run against zkSync Sepolia Testnet. If you wish to use a different network, you can change the `defaultChain` in `src/utils/chains.ts` file.
+By default your code will be run against ZKsync Sepolia Testnet. If you wish to use a different network, you can change the `defaultChain` in `src/utils/chains.ts` file.
 
 Alternatively, you can use `getProvider` or `getWallet` with a custom `chain` parameter.
 
 # Learn more
 
-To learn more about [zkSync](https://zksync.io) or [web3js v4](https://docs.web3js.org/), check out the following resources:
+To learn more about [ZKsync](https://zksync.io) or [web3js v4](https://docs.web3js.org/), check out the following resources:
 
-- [zkSync Documentation](https://era.zksync.io/docs/dev)
+- [ZKsync Documentation](https://docs.zksync.io/build)
 - [web3js v4 Documentation](https://docs.web3js.org/)

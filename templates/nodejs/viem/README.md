@@ -1,4 +1,4 @@
-This is a [zkSync](https://zksync.io) + [viem](https://viem.sh) + [Node.js](https://nodejs.org/) project in TypeScript bootstrapped with [`zksync-cli`](https://github.com/matter-labs/zksync-cli)
+This is a [ZKsync](https://zksync.io) + [viem](https://viem.sh) + [Node.js](https://nodejs.org/) project in TypeScript bootstrapped with [`zksync-cli`](https://github.com/matter-labs/zksync-cli)
 
 # Prerequisites
 
@@ -12,13 +12,13 @@ This is a [zkSync](https://zksync.io) + [viem](https://viem.sh) + [Node.js](http
 
 # Configuration
 
-By default your code will be run against zkSync Sepolia Testnet. If you wish to use a different network, you can change the `defaultChain` in `src/utils/chains.ts` file.
+By default your code will be run against ZKsync Sepolia Testnet. If you wish to use a different network, you can change the `defaultChain` in `src/utils/chains.ts` file.
 
 Alternatively, you can use `getPublicClient` or `getWalletClient` with a custom `chain` parameter.
 
 # Learn more
 
-To learn more about [zkSync](https://zksync.io) or [viem](https://viem.sh), check out the following resources:
+To learn more about [ZKsync](https://zksync.io) or [viem](https://viem.sh), check out the following resources:
 
-- [zkSync Documentation](https://era.zksync.io/docs/dev)
+- [ZKsync Documentation](https://docs.zksync.io/build)
 - [viem Documentation](https://viem.sh)

@@ -27,23 +27,23 @@ export const ethereumDockerizedNode: L1Chain = {
   rpcUrl: "http://localhost:8545",
 }
 
-export const zkSyncMainnet: Chain = {
+export const zksyncMainnet: Chain = {
   id: 324,
-  name: "zkSync",
+  name: "ZKsync",
   rpcUrl: "https://mainnet.era.zksync.io",
   blockExplorerUrl: "https://explorer.zksync.io",
   blockExplorerApi: "https://block-explorer-api.mainnet.zksync.io", // Docs: https://block-explorer-api.mainnet.zksync.io/docs
   l1: ethereumMainnet,
 }
-export const zkSyncSepoliaTestnet: Chain = {
+export const zksyncSepoliaTestnet: Chain = {
   id: 300,
-  name: "zkSync Sepolia Testnet",
+  name: "ZKsync Sepolia Testnet",
   rpcUrl: "https://sepolia.era.zksync.dev",
   blockExplorerUrl: "https://sepolia.explorer.zksync.io",
   blockExplorerApi: "https://block-explorer-api.sepolia.zksync.dev", // Docs: https://block-explorer-api.sepolia.zksync.dev/docs
 }
 
-export const zkSyncDockerizedNode: Chain = {
+export const zksyncDockerizedNode: Chain = {
   id: 270,
   name: "Dockerized local node",
   rpcUrl: "http://localhost:3050",
@@ -54,17 +54,17 @@ export const zkSyncDockerizedNode: Chain = {
 
   l1: ethereumDockerizedNode,
 }
-export const zkSyncInMemoryNode: Chain = {
+export const zksyncInMemoryNode: Chain = {
   id: 260,
   name: "In-memory local node",
   rpcUrl: "http://127.0.0.1:8011",
 }
 
 export const chains: Chain[] = [
-  zkSyncMainnet,
-  zkSyncSepoliaTestnet,
-  zkSyncDockerizedNode,
-  zkSyncInMemoryNode
+  zksyncMainnet,
+  zksyncSepoliaTestnet,
+  zksyncDockerizedNode,
+  zksyncInMemoryNode
 ]
 
-export const defaultChain = zkSyncSepoliaTestnet;
+export const defaultChain = zksyncSepoliaTestnet;
