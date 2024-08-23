@@ -3,9 +3,9 @@ import {
   type Chain,
 } from "viem/chains";
 
-export const zkSyncSepoliaTestnet = {
+export const zksyncSepoliaTestnet = {
   id: 300,
-  name: "zkSync Sepolia Testnet",
+  name: "ZKsync Sepolia Testnet",
   network: "zksync-sepolia-testnet",
   nativeCurrency: { name: "Ether", symbol: "ETH", decimals: 18 },
   rpcUrls: {
@@ -24,7 +24,7 @@ export const zkSyncSepoliaTestnet = {
   },
   testnet: true
 }
-export const zkSyncDockerizedNode = {
+export const zksyncDockerizedNode = {
   id: 270,
   name: "Dockerized local node",
   network: "zksync-dockerized-node",
@@ -45,7 +45,7 @@ export const zkSyncDockerizedNode = {
   },
   testnet: true
 }
-export const zkSyncInMemoryNode = {
+export const zksyncInMemoryNode = {
   id: 260,
   name: "In-memory local node",
   network: "zksync-in-memory-node",
@@ -63,9 +63,9 @@ export const zkSyncInMemoryNode = {
 
 export const chains: Chain[] = [
   zksync,
-  zkSyncSepoliaTestnet,
-  zkSyncDockerizedNode,
-  zkSyncInMemoryNode,
+  zksyncSepoliaTestnet,
+  zksyncDockerizedNode,
+  zksyncInMemoryNode,
 ]
 
-export const defaultChain = zkSyncSepoliaTestnet;
+export const defaultChain = zksyncSepoliaTestnet;
