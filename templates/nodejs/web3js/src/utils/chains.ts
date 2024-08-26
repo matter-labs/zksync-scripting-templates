@@ -66,5 +66,3 @@ export const chains: Chain[] = [
   zksyncDockerizedNode,
   zksyncInMemoryNode
 ]
-
-export const defaultChain = zksyncSepoliaTestnet;

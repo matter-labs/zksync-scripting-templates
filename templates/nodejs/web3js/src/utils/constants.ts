@@ -1,13 +1,3 @@
-import {ETH_ADDRESS, L2_ETH_TOKEN_ADDRESS} from "web3-plugin-zksync";
-
-export const ETH_TOKEN = {
-  name: "Ether",
-  symbol: "ETH",
-  address: L2_ETH_TOKEN_ADDRESS,
-  l1Address: ETH_ADDRESS,
-  decimals: 18,
-}
-
 /**
  * Rich wallets can be used for testing purposes.
  * Available on ZKsync In-memory node and Dockerized node.
