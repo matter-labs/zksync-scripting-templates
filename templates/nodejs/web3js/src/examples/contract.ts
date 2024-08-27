@@ -1,4 +1,4 @@
-import { Bytes, Contract, ContractAbi, Web3 } from "web3";
+import { Bytes, Contract, Web3 } from "web3";
 import {
   ContractFactory,
   types,
@@ -7,7 +7,7 @@ import {
   ZKsyncWallet,
 } from "web3-plugin-zksync";
 import { LOCAL_RICH_WALLETS } from "../utils/constants";
-import { TOKEN_CONTRACT, TokenContractAbi } from "../utils/token-contract";
+import { TOKEN_CONTRACT, TokenContractAbiType } from "../utils/token-contract";
 
 export async function contractDeploy() {
   const web3: Web3 = new Web3(/* optional L1 provider */);
@@ -21,17 +21,15 @@ export async function contractDeploy() {
   const PRIVATE_KEY: string = LOCAL_RICH_WALLETS[0].privateKey;
   const wallet: ZKsyncWallet = new zksync.Wallet(PRIVATE_KEY);
 
-  const contractAbi: TokenContractAbi = TOKEN_CONTRACT.abi;
+  const contractAbi: TokenContractAbiType = TOKEN_CONTRACT.abi;
   const contractByteCode: Bytes = TOKEN_CONTRACT.bytecode;
 
   // create a ContractFactory that uses the default create deployment type
-  const contractFactory: ContractFactory<TokenContractAbi> =
+  const contractFactory: ContractFactory<TokenContractAbiType> =
     new ContractFactory(contractAbi, contractByteCode, wallet);
 
-  const contract: Contract<TokenContractAbi> = await contractFactory.deploy([
-    "Ducat",
-    "Ducat",
-    18,
-  ]);
+  const contract: Contract<TokenContractAbiType> = await contractFactory.deploy(
+    ["Ducat", "Ducat", 18],
+  );
   console.log("Contract methods:", contract.methods);
 }

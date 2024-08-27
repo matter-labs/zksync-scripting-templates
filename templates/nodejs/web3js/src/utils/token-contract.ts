@@ -1,4 +1,4 @@
-export type TokenContractAbi = typeof TOKEN_CONTRACT.abi;
+export type TokenContractAbiType = typeof TOKEN_CONTRACT.abi;
 export const TOKEN_CONTRACT = {
   abi: [
     {
