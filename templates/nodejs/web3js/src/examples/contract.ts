@@ -31,5 +31,6 @@ export async function contractDeploy() {
   const contract: Contract<TokenContractAbiType> = await contractFactory.deploy(
     ["Ducat", "Ducat", 18],
   );
+  console.log("Contract address:", contract.options.address);
   console.log("Contract methods:", contract.methods);
 }
